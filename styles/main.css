@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'jua';
+    src: url(./font/Jua-Regular.ttf);
+}
+body{
+    font-family: 'jua';
+}
+div{
+    box-sizing: border-box;
+}
+
+.create{
+    position: fixed;
+    right:10%;
+    bottom:10%;
+}
+
+.component-column{
+    display: flex;
+    flex-direction: column;
+}
+.component-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.component-footer{
+     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.pagination{
+    border-radius:20px;
+    margin:5px;
+    border:none;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+.pagination-selected{
+    color: white;
+    background-color:#1976d2;
+}
+.pagination-unselected{
+     color: black;
+}
